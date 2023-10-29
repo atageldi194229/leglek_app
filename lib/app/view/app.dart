@@ -17,9 +17,10 @@ class AppView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData.light(useMaterial3: true),
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
+      home: const SplashPage(),
     );
   }
 }
