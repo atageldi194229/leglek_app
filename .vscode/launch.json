@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "leglek",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main/main.dart"
+        },
+        {
+            "name": "leglek (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "leglek (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "news_blocks_ui",
+            "cwd": "packages\\news_blocks_ui",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "news_blocks_ui (profile mode)",
+            "cwd": "packages\\news_blocks_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "news_blocks_ui (release mode)",
+            "cwd": "packages\\news_blocks_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
